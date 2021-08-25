@@ -65,7 +65,33 @@
             background-image: url('image/desert-transparent.png');
             
         }
+        ul{
+            list-style: none;
+            background-color: green;
+            border-radius: 2px;
+            margin-bottom: -15px;
+            margin-top: -5px;
+        }
+        
+        li{
+            display: inline-block;
+        }
+
+        a{
+            text-decoration: none;
+            padding: 40px;
+            color: #fff;
+            font-size: 20px;
+            font-family: 'Oswald', sans-serif;
+            
+        }
+        a:hover{
+         background-color: darkgreen;   
+         font-size: 10px;
+         transition: 2s;
+        }
     </style>
+    
 </head>
 <body>
     <div class="wrapper">
@@ -73,9 +99,12 @@
            <img src="image/person.png" alt="person image" srcset="">
          </div>
 
-         <div class="navbar">
-             <a href="contact.html"><h4> Contact us.</h4></a>
-         </div>
+         <ul>
+            <li><a href="https://www.google.com/">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
 
         <div class="about-info">
 
